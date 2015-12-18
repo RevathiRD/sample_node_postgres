@@ -5,6 +5,8 @@ node_js:
 
 # For xunit-file module to put results in shippable folder
 build_image: drydock/u12nodpls:tip
+services:
+  postgres
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
 
