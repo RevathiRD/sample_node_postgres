@@ -4,7 +4,7 @@ node_js:
   - 0.10.25
 
 # For xunit-file module to put results in shippable folder
-build_image: drydock/u12nodpls:tip`
+build_image: drydock/u12nodpls:tip
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
 
